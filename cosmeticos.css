@@ -1,0 +1,56 @@
+
+
+.nav {
+    width: 100%; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+ }
+ 
+ .logo {
+     color: black;
+     
+ font-size: 25px;
+ font-weight: 100px;
+ padding: 25px;
+ }
+ 
+ 
+ .nav ul li a {
+     font-size: 20px;
+     color: black;
+     display: flex;
+ font-weight: bold;
+ transition: all 0.5s ease;
+ text-decoration: none;
+ }
+ 
+ .correo li a:hover {
+     background:  #fff;
+     color: black;
+     padding: 5px 10px;
+     border-radius: 15px;
+    
+ }
+ 
+ 
+ 
+ h1, h2 {
+     font-family: 'Raleway', sans-serif;
+     
+ }
+
+ .frase-inicio {
+    text-align: center;
+   background-color: #FAAB78;
+    height: 150px;
+}
+
+
+.tipo-producto1 {
+    height: 300px;
+    text-align: center;
+}
