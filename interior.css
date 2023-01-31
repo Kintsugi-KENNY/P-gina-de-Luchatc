@@ -36,20 +36,33 @@
  }
  
  
- 
+  
  h1, h2 {
-     font-family: 'Raleway', sans-serif;
-     
- }
+    font-family: 'Raleway', sans-serif;
+    
+}
 
- .frase-inicio {
-    text-align: center;
-   background-color: #FAAB78;
-    height: 150px;
+.frase-inicio {
+   text-align: center;
+  background-color: #D9ACF5;
+   height: 130px;
+   
+}
+
+.text-inicio {
+   padding: 40px;
 }
 
 
 .tipo-producto1 {
-    height: 300px;
-    text-align: center;
+   border: 10px solid white;
+   height: 350px;
+   text-align: center;
+   line-height: 0.40;
+}
+
+.img1 {
+   width: 230px;
+   margin-bottom: 0.50rem;
+   float: center;
 }
