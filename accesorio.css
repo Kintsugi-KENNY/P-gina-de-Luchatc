@@ -1,59 +1,37 @@
 
-
 .nav {
-    width: 100%; 
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 25px;
-    transition: all 0.5s ease;
- }
- 
- .logo {
-     color: black;
-     
- font-size: 25px;
- font-weight: 100px;
- padding: 25px;
- }
- 
- 
- .nav ul li a {
-     font-size: 20px;
-     color: black;
-     display: flex;
- font-weight: bold;
- transition: all 0.5s ease;
- text-decoration: none;
- }
- 
- .correo li a:hover {
-     background:  #fff;
-     color: black;
-     padding: 5px 10px;
-     border-radius: 15px;
-    
- }
- 
- 
- 
- h1, h2 {
-     font-family: 'Raleway', sans-serif;
-     
- }
+    width: 100%;
+    background-color: #5C2626;
+    padding: 50px;
+    border-bottom: 5px solid #FFD6B6;
+}
 
- .frase-inicio {
+.logo {
+  
+    font-size: 70px;
+}
+
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h1 {
+    color: #Fff;
+    padding: 20px;
+}
+
+.frase-inicio {
     text-align: center;
-   background-color: #D9ACF5;
+    background-color: #D3756B;
     height: 130px;
-    
 }
 
 .text-inicio {
-    padding: 40px;
-}
+    padding: 35px;
 
+}
 
 .tipo-producto1 {
     border: 10px solid white;
@@ -63,7 +41,8 @@
 }
 
 .img1 {
-    width: 230px;
+    width: 200px;
+    height: 240px;
     margin-bottom: 0.50rem;
     float: center;
 }
