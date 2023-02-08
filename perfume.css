@@ -26,24 +26,33 @@ h1 {
     text-align: center;
     background-color: #D3756B;
     height: 130px;
+    margin-bottom: 20px;
 }
 
 .text-inicio {
     padding: 35px;
-
 }
 
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
 
 .tipo-producto1 {
-    border: 10px solid white;
-    height: 350px;
+    border: 2px solid #5C2626;
+    border-radius: 5%;
+    margin: 20px;
+    height: 420px;
     text-align: center;
     line-height: 0.40;
+
 }
 
 .img1 {
-    width: 200px;
-    height: 250px;
+    width: 230px;
     margin-bottom: 0.50rem;
+    margin-top: 15px;
     float: center;
 }

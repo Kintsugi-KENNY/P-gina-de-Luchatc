@@ -27,23 +27,34 @@
    background-color: #B74242;
     height: 130px;
     color: white;
+    margin-bottom: 10px;
 }
 
 .text-inicio {
     padding: 35px;
 }
 
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
 
 .tipo-producto1 {
-    border: 10px solid white;
+    border: 2px solid  #5C2626; 
+    border-radius: 5%;
+    margin: 20px;
     height: 350px;
+    position: relative;
+    
     text-align: center;
     line-height: 0.40;
 }
 
 .img1 {
     width: 230px;
-    margin-bottom: 0.50rem;
+    margin: 10px auto 10px auto;
     float: center;
 }
 
